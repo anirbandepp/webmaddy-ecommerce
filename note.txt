@@ -1,0 +1,65 @@
+git init
+git remote add origin https://github.com/satirthaKreative/juteberry_ecommerce.git
+
+git add .
+git status
+git checkout -b anirban
+
+git config --global user.email "anirbankreative22@gmail.com"
+git config --global user.name "AnirbanKM"
+
+git commit -m "multi role login"
+
+$ git branch
+
+<img src="http://localhost:8000/product/{{ $item->image }}" alt=""  style="width: 60px" />
+
+INSERT INTO `orders`(
+    `id`,
+    `order_id`,
+    `user_id`,
+    `total_price`,
+    `discount`,
+    `address1`,
+    `address2`,
+    `note`,
+    `landmark`,
+    `city`,
+    `state`,
+    `country_id`,
+    `zipcode`,
+    `type`,
+    `payment_remarks`,
+    `order_status`,
+    `created_at`,
+    `updated_at`
+)
+VALUES(
+    NULL,
+    '10022',
+    '1',
+    '500',
+    '20',
+    'Kolkata Chetla',
+    'Kolkata New Town',
+    'order note',
+    'Chetla boys high school',
+    'Kolkata',
+    'West Bengal',
+    '1',
+    '700027',
+    'home',
+    'Done',
+    'pending',
+    '2023-01-14 12:31:29',
+    '2023-01-14 12:31:29'
+);
+
+<td>
+	<span class="label bg-orange-300">Pending</span>
+	<span class="label bg-slate-400">Processing</span>
+	<span class="label bg-blue">Shipped</span>
+	<span class="label label-success">Complete</span>
+	<span class="label label-warning">Review</span>
+	<span class="label label-danger">Cancelled</span>
+</td>
